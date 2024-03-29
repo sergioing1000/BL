@@ -18,14 +18,26 @@ function Navbar() {
     <div className="navbar" onClick={closeDropdown}>
       <a href="#home">Home1</a>
       <a href="#news">News2</a>
+
       <div className="dropdown">
         <button className="dropbtn" onClick={toggleDropdown}>
-          Dropdown3 <i className="fa fa-caret-down"></i>
+          Stores <i className="fa fa-caret-down"></i>
         </button>
         <div className={`dropdown-content ${dropdownVisible ? "show" : ""}`}>
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+          <a href="#">Store 1</a>
+          <a href="#">Store 2</a>
+          <a href="#">Store 3</a>
+        </div>
+      </div>
+
+      <div className="dropdown">
+        <button className="dropbtn" onClick={toggleDropdown}>
+          Stores <i className="fa fa-caret-down"></i>
+        </button>
+        <div className={`dropdown-content ${dropdownVisible ? "show" : ""}`}>
+          <a href="#">Store 1</a>
+          <a href="#">Store 2</a>
+          <a href="#">Store 3</a>
         </div>
       </div>
     </div>

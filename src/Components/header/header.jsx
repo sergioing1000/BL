@@ -27,21 +27,19 @@ const Header = () => {
 
   return (
     <header className="header_container">
-      <div className="header_left">
-        <img
-          className="logo"
-          src={companyLogo}
-          alt="Company Logo"
-          width={150}
-        />
-      </div>
+      <div className="header_container1">
+        <div className="header_left">
+          <img
+            className="logo"
+            src={companyLogo}
+            alt="Company Logo"
+            width={150}
+          />
+        </div>
 
-      <Header2/>
-
-      <div className="header_center">
-        
-
-       
+        <div className="header_center">
+          <Header2 />
+        </div>
       </div>
 
       <div className="header_right">

@@ -1,8 +1,10 @@
-/* Navbar.css */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+
   font-family: Arial, Helvetica, sans-serif;
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar a {
@@ -12,11 +14,17 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background-color: blue;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
+  background-color: blue;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .dropdown .dropbtn {
