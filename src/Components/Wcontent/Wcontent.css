@@ -1,25 +1,45 @@
-.Wcontent{
-  background-image: url('../../assets/images/WContentBackground.jpg');
+@font-face {
+    font-family: 'Amasis';
+    src: url('../../../../assets/fonts/Amasis.otf') format('opentype');
+}
+
+
+.Wcontent {
+  background-image: url("../../assets/images/WContentBackground.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position:  0px 0px;
+  background-position: 0px 0px;
 
   display: flex;
   justify-content: space-between;
-
 }
 
-.WcontentL, .WcontentR{
+.WcontentL,
+.WcontentR {
   width: 170px;
   height: 300px;
   background-color: white;
   position: relative;
   top: -50px;
-  box-shadow:20px 20px 50px 10px green;
+  box-shadow: 20px 20px 50px 10px black;
 
   border-radius: 50px 50px 4px 4px;
 
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+}
+
+.Wcontimg {
+  border-radius: 50% 50%;
+  width: 80%; 
+  padding-top: 20px;
+}
+
+.Wconttext{
+  font-family: 'Amasis', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 0.8;
 }

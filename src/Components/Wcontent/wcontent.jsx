@@ -2,14 +2,18 @@ import React from "react";
 
 import "./Wcontent.css";
 
+import Fav1 from "../../assets/images/menu/fav1.jpg";
+
 const Wcontent = () => {
 
   return (
     <body className="Wcontent">
       <div className="WcontentL">
-        <img src="" alt="" />
-        <pre>texto2</pre>
-        <pre>texto3</pre>
+        <img className="Wcontimg" src={Fav1} alt="Favorit01" />
+        <p className="Wconttext">American Burguer</p>
+        <div className="Wconticons">
+          texto3
+        </div>
         <pre>texto4</pre>
       </div>
 
