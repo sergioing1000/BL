@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import Header from "./Components/header/header.jsx";
+import Wcontent from "./Components/Wcontent/wcontent.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Header />
+      <Wcontent/>
 
       <body>
         <div>
