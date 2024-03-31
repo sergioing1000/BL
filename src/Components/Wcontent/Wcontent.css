@@ -17,7 +17,6 @@
 .WcontentL,
 .WcontentR {
   width: 170px;
-  height: 300px;
   background-color: white;
   position: relative;
   top: -50px;
@@ -41,5 +40,19 @@
   font-family: 'Amasis', sans-serif;
   font-size: 20px;
   text-align: center;
-  line-height: 0.8;
+  line-height: 0.8;  
+}
+
+.Wconticons{
+ font-family: 'Amasis', sans-serif; 
+ font-size: 24px;
+}
+
+.WcontPrice1{
+ font-family: 'Amasis', sans-serif; 
+ font-size: 24px; 
+}
+.WcontPrice2{
+ font-family: 'Amasis', sans-serif; 
+ font-size: 16px;
 }
