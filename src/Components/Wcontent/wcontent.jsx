@@ -11,7 +11,7 @@ import Soda from "../../assets/icons/soda.png";
 const Wcontent = () => {
 
   return (
-    <body className="Wcontent">
+    <div className="Wcontent">
       <div className="WcontentL">
         <img className="Wcontimg" src={Fav1} alt="Favorit01" />
         <p className="Wconttext">American Burguer</p>
@@ -30,7 +30,7 @@ const Wcontent = () => {
 
       <div className="WcontentR">
         <img className="Wcontimg" src={Fav2} alt="Favorit02" />
-        <p className="Wconttext">American Burguer</p>
+        <p className="Wconttext">Mix Burguer</p>
         <div className="Wconticons">
           <img src={Burger} alt="Burger Icon" width={40} />
           <span>+</span>
@@ -43,7 +43,7 @@ const Wcontent = () => {
           <span className="WcontPrice2">40</span>
         </div>
       </div>
-    </body>
+    </div>
   );
 
 };

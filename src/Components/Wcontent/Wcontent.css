@@ -7,19 +7,24 @@
 .Wcontent {
   background-image: url("../../assets/images/WContentBackground.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 1280px 450px;
   background-position: 0px 0px;
 
   display: flex;
   justify-content: space-between;
+
+  height: 450px;
+
+  
 }
 
 .WcontentL,
 .WcontentR {
   width: 170px;
+  height: 340px;
   background-color: white;
   position: relative;
-  top: -50px;
+  top: 100px;
   box-shadow: 20px 20px 50px 10px black;
 
   border-radius: 50px 50px 4px 4px;

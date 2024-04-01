@@ -5,6 +5,7 @@ import './App.css'
 
 import Header from "./Components/header/header.jsx";
 import Wcontent from "./Components/Wcontent/wcontent.jsx";
+import BodyMenu from "./Components/BMenu/Bmenu.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,8 @@ function App() {
   return (
     <>
       <Header />
-      <Wcontent/>
+      <Wcontent />
+      <BodyMenu />
 
       <body>
         <div>
