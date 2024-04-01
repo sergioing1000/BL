@@ -29,27 +29,29 @@ function BMenu() {
       </div>
 
       <div className="Carousel">
-        <Slider {...settings}>
-          {data.map((d) => (
-            <div className="card">
-              <div className="topCard">
-                <div className="cardimageframe">
-                  <img
-                    className="cardimage"
-                    src={d.img}
-                    alt={d.name}
-                    width={140}
-                  />
+        <div>
+          <Slider {...settings}>
+            {data.map((d) => (
+              <div className="card">
+                <div className="topCard">
+                  <div className="cardimageframe">
+                    <img
+                      className="cardimage"
+                      src={d.img}
+                      alt={d.name}
+                      width={140}
+                    />
+                  </div>
+                </div>
+                <div className="bottomCard">
+                  <p className="Cardtextname">{d.name}</p>
+                  <span className="CardPrice1">{d.Price1}</span>
+                  <span className="CardPrice2">{d.Price2}</span>
                 </div>
               </div>
-              <div className="bottomCard">
-                <p className="Cardtextname">{d.name}</p>
-                <span className="CardPrice1">{d.Price1}</span>
-                <span className="CardPrice2">{d.Price2}</span>
-              </div>
-            </div>
-          ))}
-        </Slider>
+            ))}
+          </Slider>
+        </div>
       </div>
     </>
   );

@@ -7,7 +7,7 @@
 .Wcontent {
   background-image: url("../../assets/images/WContentBackground.jpg");
   background-repeat: no-repeat;
-  background-size: 1280px 450px;
+  background-size: 100% 450px;
   background-position: 0px 0px;
 
   display: flex;
