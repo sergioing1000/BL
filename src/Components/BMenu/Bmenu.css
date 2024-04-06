@@ -19,13 +19,13 @@
   width: 120px;
 }
 
-.Bmenutop2{
+.Bmenutop2 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.BmenuTop2Title{
+.BmenuTop2Title {
   text-align: left;
   font-family: "Amasis", sans-serif;
   font-size: 35px;
@@ -33,50 +33,73 @@
   margin-bottom: 10px;
   margin-left: 10px;
 
-  width: 150px;
+  width: 10%;
 }
 
 .BmenuTop2Line {
   width: 1160px;
   background-color: grey;
   height: 1px;
-}
-.Carousel{
-  
+
+  width: 90%;
 }
 
-.card{
-  width: 170px;
-  height: 340px;
+.BmenuTop2Title2 {
+  text-align: left;
+  font-family: "Amasis", sans-serif;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  width: 15%;
+}
+
+.BmenuTop2Line2 {
+  width: 1160px;
+  background-color: grey;
+  height: 1px;
+
+  width: 85%;
+}
+
+.Carousel {
+  width: 65%;
+  text-align: center;
+  margin: auto;
+}
+
+.card {
+  width: 20%;
+  height: 322px;
   background-color: white;
 
   border-left: 1px solid rgb(153, 153, 153);
-  border-top: 1px solid rgb(153, 153, 153);;
-  
+  border-top: 1px solid rgb(153, 153, 153);
+
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(78, 78, 78);
-
 }
 
-.cardimage{
+.cardimage {
   border-radius: 50% 50%;
   padding-top: 20px;
-
+  margin: auto;
 }
 
-.Cardtextname{
-  font-family: "Amasis", sans-serif; 
+.Cardtextname {
+  font-family: "Amasis", sans-serif;
   font-size: 20px;
   text-align: center;
 }
 
-.CardPrice1{
-  font-family: 'Amasis', sans-serif;
+.CardPrice1 {
+  font-family: "Amasis", sans-serif;
   font-size: 24px;
 }
 
-.CardPrice2{
-  font-family: 'Amasis', sans-serif;
+.CardPrice2 {
+  font-family: "Amasis", sans-serif;
   font-size: 16px;
 }
 
@@ -86,4 +109,5 @@
 
 .slick-arrow {
   background-color: black;
+  border-radius: 5px;
 }

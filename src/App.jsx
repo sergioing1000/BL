@@ -7,6 +7,7 @@ import Header from "./Components/header/header.jsx";
 import Wcontent from "./Components/Wcontent/wcontent.jsx";
 import BodyMenu from "./Components/BMenu/Bmenu.jsx";
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,11 +16,10 @@ function App() {
       <Header />
       <Wcontent />
       <BodyMenu />
-
+      
       <div>
-        <p>text</p>
+        text
       </div>
-
     </>
   );
 }
