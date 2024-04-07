@@ -4,9 +4,9 @@ import "./Wcontent.css";
 
 import Fav1 from "../../assets/images/menu/fav1.jpg";
 import Fav2 from "../../assets/images/menu/fav2.jpg";
-import Burger from "../../assets/icons/burger.png";
-import Ffries from "../../assets/icons/frenchfries.png";
-import Soda from "../../assets/icons/soda.png";
+import Burger from "../../assets/icons/burger.svg";
+import Ffries from "../../assets/icons/frenchfries.svg";
+import Soda from "../../assets/icons/soda.svg";
 
 const Wcontent = () => {
 
