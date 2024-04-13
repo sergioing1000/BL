@@ -24,7 +24,7 @@ const Wcontent = () => {
         </div>
         <div>
           <span className="WcontPrice1">$12,</span>
-          <span className="WcontPrice2">40</span>
+          <span className="WcontPrice2">45</span>
         </div>
       </div>
 

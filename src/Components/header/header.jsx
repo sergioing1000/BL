@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import companyLogo from "../../assets/images/logo.jpeg";
+import shoppingcart from "../../assets/icons/shopping-cart-blck.svg";
 import bonusticket from "../../assets/images/ticket.png";
 import loginicon from "../../assets/images/login-icon.jpg";
 
@@ -43,8 +44,9 @@ const Header = () => {
       </div>
 
       <div className="header_right">
-        <img src={bonusticket} alt="Company Logo" width={50} />
-        <img src={loginicon} alt="Company Logo" width={58} />
+        <img src={shoppingcart} alt="Shoping Cart" width={50} />
+        <img src={bonusticket} alt="Bonus Ticket" width={50} />
+        <img src={loginicon} alt="Login Icon" width={58} />
       </div>
     </header>
   );

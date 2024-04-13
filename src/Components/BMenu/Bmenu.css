@@ -3,6 +3,11 @@
   src: url("../../../../assets/fonts/Amasis.otf") format("opentype");
 }
 
+.BMenu1, .BMenu2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .Bmenutop {
   display: flex;
   flex-direction: row;
