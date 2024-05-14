@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Amasis';
+    src: url('../../../../assets/fonts/Amasis.otf') format('opentype');
+}
+
+
+.Fcontent{
+  background-color: rgb(191,191,191);
+  height: 100px;
+}

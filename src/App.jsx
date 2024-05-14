@@ -6,6 +6,7 @@ import './App.css'
 import Header from "./Components/header/header.jsx";
 import Wcontent from "./Components/Wcontent/wcontent.jsx";
 import BodyMenu from "./Components/BMenu/Bmenu.jsx";
+import FooterCont from "./Components/footer/Footercontent.jsx";
 
 
 function App() {
@@ -13,13 +14,14 @@ function App() {
 
   return (
     <>
+      
       <Header />
       <Wcontent />
       <BodyMenu />
+      <FooterCont />
+
+      <div>text</div>
       
-      <div>
-        text
-      </div>
     </>
   );
 }

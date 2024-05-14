@@ -1,21 +1,40 @@
 @font-face {
     font-family: 'Amasis';
-    src: url('../../../../assets/fonts/Amasis.otf') format('opentype');
+    src: url('../../assets/fonts/Amasis.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'Pentagon';
+    src: url('../../assets/fonts/Pentagon.ttf') format('opentype');
+}
 
-.Wcontent {
-  background-image: url("../../assets/images/WContentBackground.jpg");
+.Wcontainer{
+  background-image: url("../../assets/images/WContentBackground2.jpg");
   background-repeat: no-repeat;
   background-size: 100% 450px;
   background-position: 0px 0px;
 
+  position: relative;
+}
+
+.WcontainerText{
+  font-family: 'Pentagon', sans-serif;  
+  letter-spacing: 4px;
+
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  font-size: 110px;
+  color: #404854;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+
+}
+
+.Wcontent {
   display: flex;
   justify-content: space-between;
 
   height: 450px;
-
-  
 }
 
 .WcontentL,
