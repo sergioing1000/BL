@@ -14,7 +14,11 @@ import youtube from "../../assets/icons/social/youtube-sq-wh.svg";
 import address from "../../assets/icons/contact/address.svg";
 import phone from "../../assets/icons/contact/phone.svg";
 import work from "../../assets/icons/contact/work.svg";
-import email from "../../assets/icons/contact/email.svg"
+import email from "../../assets/icons/contact/email.svg";
+
+import appstore from "../../assets/images/appstore.jpg";
+import googleplay from "../../assets/images/googleplay.jpg";  
+
 
 
 const Fcontent = () => {
@@ -63,7 +67,17 @@ const Fcontent = () => {
             </div>
           </div>
         </div>
-        <div className="Fcontent_up_right">text3</div>
+        <div className="Fcontent_up_right">
+          <div className="FcontentName">Download our App</div>
+          <div className="Fcontent_up_right1">
+            <div>
+              <img src={appstore} alt="app store logo" width={150} />
+            </div>
+            <div>
+              <img src={googleplay} alt="Google play logo" width={150} />
+            </div>
+          </div>
+        </div>
       </div>
       <div className="Fcontent_line"></div>
       <div className="Fcontent_down">

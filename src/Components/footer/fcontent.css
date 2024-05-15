@@ -85,6 +85,20 @@
   gap: 5px;
 }
 
+.Fcontent_up_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.Fcontent_up_right1{
+  padding-top: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 15px;
+}
+
 .Fcontent_line{
   height: 10px;
   background-color: white;
