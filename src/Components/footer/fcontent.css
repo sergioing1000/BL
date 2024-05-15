@@ -3,6 +3,11 @@
     src: url('../../../../assets/fonts/Amasis.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'Pentagon';
+    src: url('../../assets/fonts/Pentagon.ttf') format('opentype');
+}
+
 .Fcontent{
   padding-top: 30px;
 
@@ -12,7 +17,7 @@
 
 .Fcontent_up{
   background-color: #BFBFBF;
-  height: 210px;
+  height: 310px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -21,18 +26,63 @@
 }
 
 .Fcontent_up_left{
-  width: 200px;
   display: flex;
-  justify-content: space-between; 
-}
-
-.FcontentLogo{
-  border-radius: 20px;
+  flex-direction: row;
 }
 
 .Fcontent_up_left_1{
-  width: 120px;
-  
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.FcontentName{
+  font-family: Amasis;
+  font-size: 25px;
+  font-weight: bold;
+  color: #4D2219;
+  margin: 0px;
+}
+
+.FcontentText{
+  color: #4D2219;;
+}
+
+.Fcontent_up_left_2{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Fcontent_up_left_address{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.Fcontent_up_left_address_text{
+  color: #4D2219;
+}
+
+.Fcontent_up_left_phone{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Fcontent_up_left_carrers{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Fcontent_up_left_email{
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .Fcontent_line{
