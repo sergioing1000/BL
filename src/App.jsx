@@ -14,14 +14,10 @@ function App() {
 
   return (
     <>
-      
       <Header />
       <Wcontent />
       <BodyMenu />
       <FooterCont />
-
-      <div>text</div>
-      
     </>
   );
 }

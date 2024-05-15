@@ -3,8 +3,54 @@
     src: url('../../../../assets/fonts/Amasis.otf') format('opentype');
 }
 
-
 .Fcontent{
-  background-color: rgb(191,191,191);
-  height: 100px;
+  padding-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Fcontent_up{
+  background-color: #BFBFBF;
+  height: 210px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.Fcontent_up_left{
+  width: 200px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.FcontentLogo{
+  border-radius: 20px;
+}
+
+.Fcontent_up_left_1{
+  width: 120px;
+  
+}
+
+.Fcontent_line{
+  height: 10px;
+  background-color: white;
+}
+
+.Fcontent_down{
+  background-color: #262329;
+}
+
+.Fcontent_down_list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+  gap: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
