@@ -48,7 +48,9 @@ function BMenu() {
 
       <div className="BMenu1">
         <div className="Bmenutop2">
-          <p className="BmenuTop2Title">Grilled</p>
+          <p className="BmenuTop2Title">
+            Grilled
+          </p>
           <span className="BmenuTop2Line"></span>
         </div>
 

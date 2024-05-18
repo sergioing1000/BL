@@ -71,10 +71,14 @@ const Fcontent = () => {
           <div className="FcontentName">Download our App</div>
           <div className="Fcontent_up_right1">
             <div>
-              <img src={appstore} alt="app store logo" width={150} />
+              <a href="https://www.apple.com/" target="_blank">
+                <img src={appstore} alt="app store logo" width={150} />
+              </a>
             </div>
             <div>
-              <img src={googleplay} alt="Google play logo" width={150} />
+              <a href="https://play.google.com/" target="_blank">
+                <img src={googleplay} alt="Google play logo" width={150} />
+              </a>
             </div>
           </div>
         </div>

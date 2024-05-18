@@ -25,3 +25,13 @@
   border-radius: 50px;
   width: 150px;
 }
+
+.LoginButton{
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+.LoginModal{
+  width: 0px;
+}
