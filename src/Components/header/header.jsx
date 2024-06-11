@@ -52,7 +52,7 @@ const Header = () => {
 
       <div className="LoginModal">
         <LoginModal isVisible={isModalVisible} onClose={closeModal}>
-          <h2>LOGIN</h2>
+          <h2>LOGIN...</h2>
           <p>This is the modal content.</p>
 
           <form>
